@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "tailwindcss/no-custom-classname": "off"
+  },
+  "extends": [
+    "../.eslintrc.json",
+    "next",
+    "next/core-web-vitals",
+    "plugin:tailwindcss/recommended"
+  ],
+  "plugins": ["tailwindcss"],
+  "settings": {
+    "next": {
+      "rootDir": "app/"
+    }
+  }
+}

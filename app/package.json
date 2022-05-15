@@ -1,0 +1,30 @@
+{
+  "name": "thxt-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 9000",
+    "build": "next build",
+    "start": "next start",
+    "fmt": "prettier . --ignore-path .gitignore --write",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.1.5",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "web3modal": "^1.9.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.2",
+    "@types/react": "18.0.6",
+    "@types/react-dom": "18.0.2",
+    "@types/tailwindcss": "^3.0.10",
+    "autoprefixer": "^10.4.4",
+    "daisyui": "^2.14.1",
+    "eslint-config-next": "12.1.5",
+    "eslint-plugin-tailwindcss": "^3.5.0",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.24"
+  }
+}
