@@ -1,5 +1,5 @@
 {
-  "name": "thxt",
+  "name": "liquidity-providing-rebalancer",
   "scripts": {
     "dev": "hardhat node",
     "fmt": "prettier . --ignore-path .gitignore --write",

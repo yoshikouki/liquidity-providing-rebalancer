@@ -13,7 +13,7 @@ const DefaultLayout = ({ children }: { children: React.ReactNode }) => {
         <div className="flex-none w-1/4">
           <Link href="/">
             <a className="px-4 text-xl normal-case btn btn-ghost hover:bg-base-300">
-              THXT
+              Liquidity Providing Rebalancer
             </a>
           </Link>
         </div>
